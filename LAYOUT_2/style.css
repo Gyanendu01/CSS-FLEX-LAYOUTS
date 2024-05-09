@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: skyblue;
+}
+
+.container {
+    height: 550px;
+    width: 800px;
+    background-color: skyblue;
+    margin: 120px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    width: 22%;
+    height: 22%;
+    background-color: whitesmoke;
+    border: 2px solid black;
+}
